@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,41 +12,41 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="You_Are_Awesome" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bno-NI-rMp">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="sXp-oe-mH5">
-                                        <rect key="frame" x="8" y="8" width="304" height="100"/>
+                                        <rect key="frame" x="16" y="20" width="382" height="100"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uEF-fq-th9">
+                                        <rect key="frame" x="16" y="154" width="382" height="656"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="32h-Xf-jpY">
-                                        <rect key="frame" x="108" y="110" width="104" height="30"/>
+                                        <rect key="frame" x="155" y="116" width="104" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Show Message"/>
                                         <connections>
                                             <action selector="messageButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aD4-uR-vkR"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uEF-fq-th9">
-                                        <rect key="frame" x="8" y="154" width="304" height="406"/>
-                                        <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
-                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="Bno-NI-rMp" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Yn9-6r-hQU"/>
-                            <constraint firstItem="Bno-NI-rMp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="i3e-yb-wmv"/>
-                            <constraint firstItem="Bno-NI-rMp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="npz-C9-DjI"/>
-                            <constraint firstItem="Bno-NI-rMp" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="tc4-WD-I2L"/>
+                            <constraint firstItem="Bno-NI-rMp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NQh-B8-FH4"/>
+                            <constraint firstItem="Bno-NI-rMp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="UYi-zc-SUR"/>
+                            <constraint firstItem="Bno-NI-rMp" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="kIx-vw-P4G"/>
+                            <constraint firstItem="Bno-NI-rMp" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="uYs-nU-6uw"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
